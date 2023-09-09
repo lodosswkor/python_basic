@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # plt.plot([1, 2, 3, 4], [2, 5, 6, 10])
 x_values = [1, 2, 3, 4]
 y_values = [2, 5, 6, 10]
-plt.plot(x_values, y_values)
+plt.plot(x_values, y_values, "o--")
 # 축 label 표시하기 
 plt.xlabel("x axis label")
 plt.ylabel("y axis label")

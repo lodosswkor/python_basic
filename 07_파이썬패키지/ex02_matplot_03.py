@@ -1,6 +1,9 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
+# 마커 옵션
+# https://matplotlib.org/stable/api/markers_api.html#module-matplotlib.markers
+
 x_values = [1, 2, 3, 4]
 y_values = [2, 5, 6, 10]
 # marker 표시(동그라미)
