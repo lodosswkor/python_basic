@@ -9,6 +9,7 @@ elements = driver.find_elements(By.XPATH, '//*[@id="video-title"]')
 time.sleep(2)
 hits_list = []
 title_list = []
+
 for element in elements:
     # shorts를 제외하기 위한 조건문
     if element.get_attribute("aria-label"):
